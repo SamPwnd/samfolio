@@ -1,0 +1,47 @@
+.button {
+    display: flex;
+    align-items: center;
+    @apply font-mono border-2 py-3 px-7 border-cyan-light;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    background-color: transparent;
+    filter: drop-shadow(0 0 1rem theme('colors.cyan.dark'));
+    position: relative;
+    z-index: 1;
+    transition: all 250ms ease-in;
+    
+    &:disabled {
+        filter: none;
+        cursor: none;
+        opacity: 0.8;
+        &::after {
+            box-shadow: none;
+        }
+    }
+
+    &:hover:enabled {
+        transform: scale(1.05);
+        background-color: theme('colors.cyan.700');
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        inset: 0;
+        border-radius: inherit;
+        opacity: 0.2;
+        box-shadow: 0 0 0.6em 0.3em theme('colors.cyan.dark');
+    }
+}
+  
+.submitted {
+    border-color: theme('colors.emerald.500');
+    filter: drop-shadow(0 0 1rem theme('colors.emerald.500'));
+    &:hover:enabled {
+        background-color: theme('colors.emerald.700');
+    }
+    &::after {
+        
+        box-shadow: 0 0 1em 0.5em theme('colors.emerald.400');
+    }
+}

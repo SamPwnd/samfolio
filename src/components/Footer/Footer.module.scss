@@ -1,0 +1,26 @@
+.plane {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 110px;
+    -webkit-animation: fly 18s linear infinite;
+    animation: fly 18s linear infinite;
+
+}
+
+:root {
+    --plane-top-start: 0px;
+    --plane-top-end: 0px;
+}
+
+@keyframes fly {
+    0% {
+        left: -25%;
+        top: var(--plane-top-start);
+    }
+    100% {
+        left: 100%;
+        top: var(--plane-top-end);
+    }
+}

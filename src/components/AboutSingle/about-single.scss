@@ -1,0 +1,16 @@
+.about-single {
+    background: linear-gradient(
+        90deg,
+        theme('colors.white') 0%,
+        theme('colors.white') 50%,
+        theme('colors.cyan.light') 51%,
+        theme('colors.sky.600') 102%
+    );
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-single-wrapper {
+    opacity: 0;
+}

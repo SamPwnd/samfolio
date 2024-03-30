@@ -1,0 +1,31 @@
+.wrapper {
+    flex: 1 0 49%;
+}
+.github {
+    background-color: rgba(255, 255, 255, 0.15);
+    z-index: 100;
+    transition: all ease-in 0.15s;
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.35);
+    }
+}
+.projectCard {
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+
+    img {
+        object-fit: cover;
+    }
+}
+.projectImageWrapper {
+    overflow: hidden;
+    position: absolute;
+    inset: 0px;
+}
+.projectImage {
+    @apply absolute rounded-xl shadow-xl;
+    width: 20rem;
+    transform: rotate(-22.5deg);
+    right: 3rem;
+    top: 0;
+}

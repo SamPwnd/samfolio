@@ -1,0 +1,12 @@
+
+.progressTrack {
+    height: 0.19rem;
+    z-index: 11;
+    .progressBar {
+        height: 0.19rem;
+        will-change: transform;
+        transform: scaleX(0);
+        transform-origin: left;
+        @apply w-full bg-gradient-to-br from-white to-cyan-300;
+    }
+}
