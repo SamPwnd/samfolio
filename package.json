@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://sampwnd.github.io/samfolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

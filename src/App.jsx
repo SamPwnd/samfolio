@@ -11,7 +11,7 @@ import ScrollToAnchor from './components/ScrollToAnchor/ScrollToAnchor'
 import Home from './pages/Home'
 import DolciDelizie from './pages/DolciDelizie'
 import PageNotFound from './pages/PageNotFound'
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
   //const [clientHeight, setClientHeight] = useState(0)
 
   return (
-    <HashRouter>
+    <BrowserRouter>
       <ScrollToAnchor />
       <div id="outer-container">
         <Burger pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } />
@@ -44,7 +44,7 @@ function App() {
           <Footer />
         </main>
       </div>
-    </HashRouter>
+    </BrowserRouter>
     
     
   )

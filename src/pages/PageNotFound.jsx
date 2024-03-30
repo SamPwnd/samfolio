@@ -13,7 +13,7 @@ export default function PageNotFound() {
             <h1 className="text-7xl font-semibold">Pagina non trovata!</h1>
             <h2 className="font-mono text-gradient">ERRORE 404</h2>
 
-            <img src="/robot.svg" alt="robot 404" loading="lazy" className="max-w-64 block ms-auto me-auto mt-5 mb-5"/>
+            <img src="/robot.svg" alt="robot 404" loading="lazy" className="max-w-60 block ms-auto me-auto mt-5 mb-5"/>
             <div className="mt-5">
                 <Button onClick={() => navigate('/')} type='primary'>
                     Torna alla Home
