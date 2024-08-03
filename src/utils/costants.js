@@ -78,6 +78,16 @@ export const PROJECTS = [
     target: "_blank"
   },
   {
+    name: "Testa Il Tuo Amico",
+    description: 'Una web app stile "quanto bene mi conosci?" realizzata con React, Tailwind e Firestore',
+    gradient: ["#003049", "#fdf0d5"],
+    image: "/projects/capture-testailtuoamico.webp",
+    url: "https://sampwnd.github.io/testa-il-tuo-amico/",
+    gitUrl: "https://github.com/SamPwnd/testa-il-tuo-amico",
+    target: "_blank",
+    width: "full"
+  },
+  {
     name: "Tenzies",
     description: "Un semplice gioco con i dadi realizzato con React",
     gradient: ["#575aff", "#c7f8ff"],
@@ -88,7 +98,7 @@ export const PROJECTS = [
   },
   {
     name: "React Notes",
-    description: 'Un app per scrivere note "brutta" ma che funziona e usa Firebase',
+    description: 'Una web app per scrivere note "brutta" ma che funziona e usa Firestore',
     gradient: ["#345995", "#e8e8e8"],
     image: "/projects/capture-notes.webp",
     url: "https://sampwnd.github.io/react-notes/",
