@@ -69,12 +69,12 @@ export const PROJECTS = [
     target: "_blank"
   },
   {
-    name: "Game Brick",
-    description: "Un minigioco in cui rompere dei blocchi, fatto con JS vanilla al 100%",
-    gradient: ["#FF7F50", "#FFA500"],
-    image: "/projects/capture-game-brick.webp",
-    url: "https://sampwnd.github.io/game-brick/",
-    gitUrl: "https://github.com/SamPwnd/game-brick",
+    name: "Galaxy Generator",
+    description: "Un generatore di galassie realizzato con Three.js",
+    gradient: ["#000a24", "#bf8ea0"],
+    image: "/projects/capture-galaxy-generator.webp",
+    url: "https://threejs-galaxy-eight.vercel.app/",
+    gitUrl: "https://github.com/SamPwnd/threejs-galaxy",
     target: "_blank"
   },
   {
@@ -94,6 +94,15 @@ export const PROJECTS = [
     image: "/projects/capture-tenzies.webp",
     url: "https://sampwnd.github.io/tenzies/",
     gitUrl: "https://github.com/SamPwnd/tenzies.git",
+    target: "_blank"
+  },
+  {
+    name: "Game Brick",
+    description: "Un minigioco in cui rompere dei blocchi, fatto con JS vanilla al 100%",
+    gradient: ["#FF7F50", "#FFA500"],
+    image: "/projects/capture-game-brick.webp",
+    url: "https://sampwnd.github.io/game-brick/",
+    gitUrl: "https://github.com/SamPwnd/game-brick",
     target: "_blank"
   },
   {
