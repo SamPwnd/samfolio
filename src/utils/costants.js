@@ -69,21 +69,31 @@ export const PROJECTS = [
     target: "_blank"
   },
   {
-    name: "Galaxy Generator",
-    description: "Un generatore di galassie realizzato con Three.js",
-    gradient: ["#000a24", "#bf8ea0"],
-    image: "/projects/capture-galaxy-generator.webp",
-    url: "https://threejs-galaxy-eight.vercel.app/",
-    gitUrl: "https://github.com/SamPwnd/threejs-galaxy",
-    target: "_blank"
-  },
-  {
     name: "Testa Il Tuo Amico",
     description: 'Una web app stile "quanto bene mi conosci?" realizzata con React, Tailwind e Firestore',
     gradient: ["#003049", "#fdf0d5"],
     image: "/projects/capture-testailtuoamico.webp",
     url: "https://sampwnd.github.io/testa-il-tuo-amico/",
     gitUrl: "https://github.com/SamPwnd/testa-il-tuo-amico",
+    target: "_blank",
+  },
+  {
+    name: "Galaxy Generator",
+    description: "Un generatore di galassie realizzato con Three.js",
+    gradient: ["#000a24", "#bf8ea0"],
+    image: "/projects/capture-galaxy-generator.webp",
+    url: "https://threejs-galaxy-eight.vercel.app/",
+    gitUrl: "https://github.com/SamPwnd/threejs-galaxy",
+    target: "_blank",
+    width: "full"
+  },
+  {
+    name: "Text3Diverse",
+    description: "Questo sito presenta un testo 3D, con forme e animazioni dinamiche realizzate con Three.js, e un design responsive",
+    gradient: ["#65c8e5", "#e67dcd"],
+    image: "/projects/capture-3d-text.webp",
+    url: "https://threejs-3d-text-sampwnd.vercel.app/",
+    gitUrl: "https://github.com/SamPwnd/threejs-3d-text",
     target: "_blank",
     width: "full"
   },
