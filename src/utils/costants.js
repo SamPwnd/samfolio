@@ -46,6 +46,7 @@ export const SKILLS = {
     "git",
     "wordpress",
     "woo",
+    "salesforce"
   ],
 };
 

@@ -22,11 +22,12 @@ export default function Header() {
                     </NavLink>
                 </nav>
                 <a
-                    href="https://drive.google.com/file/d/1-CapKbqO1jHumnnvh_tah9VK-Y7uXCpz/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/130uuZLJpOFpzY0L84E9Lb47NMzUfXFYw/view?usp=sharing"
                     target="_blank"
-                    className="link font-mono hover:text-cyan-light hidden md:flex items-center gap-2">
-                        CV
-                        <FileText size={22}/>
+                    className="link font-mono hover:text-cyan-light hidden md:flex items-center gap-2"
+                >
+                    CV
+                    <FileText size={22}/>
                 </a>
             </div>
         </header>        
