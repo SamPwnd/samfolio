@@ -17,7 +17,7 @@ export default function Header() {
                     <NavLink to="/#skills" className="link mr-5 hover:text-cyan-light">
                         Skills
                     </NavLink>
-                    <NavLink to="/#contact" className="link mr-5 hover:text-cyan-light">
+                    <NavLink to="/#footer" className="link mr-5 hover:text-cyan-light">
                         Contattami
                     </NavLink>
                 </nav>

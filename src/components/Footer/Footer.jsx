@@ -49,7 +49,7 @@ export default function Footer() {
 
 
     return (
-        <footer className="w-full  relative overflow-hidden"> {/* Tolta temporaneamente la classe bg-teal-2 per avere un background coerente mentre Contact è nascosto */}
+        <footer className="w-full  relative overflow-hidden" id="footer"> {/* Tolta temporaneamente la classe bg-teal-2 per avere un background coerente mentre Contact è nascosto */}
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#22d3ee" fillOpacity="1" d="M0,160L80,165.3C160,171,320,181,480,160C640,139,800,85,960,90.7C1120,96,1280,160,1360,192L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
             <div className="bg-gradient-to-b from-cyan-light to-sky-600 mt-[-1px] pb-20 pt-20 sm:pt-7 md:pt-0 relative">
                 <div className={`${styles.plane}`} ref={paperplane} onClick={handlePlaneClick}>
