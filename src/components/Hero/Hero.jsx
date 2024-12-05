@@ -52,7 +52,7 @@ export default function Hero() {
                         </div>
                         
                         <div>
-                            <Button href='#contact' type='primary'>
+                            <Button href='#footer' type='primary'>  {/* porta al footer fino a quando non si fixa l'api delle mail */}
                                 Contattami
                             </Button>
                         </div>

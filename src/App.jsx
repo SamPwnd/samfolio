@@ -17,6 +17,16 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   gsap.registerPlugin(ScrollTrigger)
 
+  useEffect(() => {           // Disabilita right-click
+    const handleContextmenu = e => {
+        e.preventDefault()
+    }
+    document.addEventListener('contextmenu', handleContextmenu)
+    return function cleanup() {
+        document.removeEventListener('contextmenu', handleContextmenu)
+    }
+  }, [ ])
+
   //const [clientHeight, setClientHeight] = useState(0)
 
   return (
@@ -40,7 +50,7 @@ function App() {
             <Route path="*" element={<PageNotFound />}/>
           </Routes>
 
-          {/* <Contact /> Commentato perché al momento non funziona l'API della mail. Di conseguenza rimossa classe del bg e pulsante nel footer. Nav contatti ora porta al footer */}
+          {/* <Contact /> Commentato perché al momento non funziona l'API della mail. Di conseguenza rimossa classe del bg e pulsante nel footer. Nav contattami e pulsante Hero ora portano al footer */}
           <Footer />
         </main>
       </div>
