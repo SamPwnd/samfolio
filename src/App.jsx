@@ -40,7 +40,7 @@ function App() {
             <Route path="*" element={<PageNotFound />}/>
           </Routes>
 
-          <Contact />
+          {/* <Contact /> Commentato perché al momento non funziona l'API della mail. Di conseguenza rimossa classe del bg e pulsante nel footer */}
           <Footer />
         </main>
       </div>
